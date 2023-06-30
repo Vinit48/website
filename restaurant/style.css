@@ -1,0 +1,672 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khand', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.upper-text {
+    width: 50%;
+    float: left;
+}
+
+.icon {
+    float: left;
+    width: 50%;
+}
+
+.upper-text ul,
+.icon ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.upper-text ul li,
+.icon ul li {
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.upper-text ul li a,
+.icon ul li a {
+    text-decoration: none;
+    color: #d2c829;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.upper-header {
+    overflow: hidden;
+    background: #381e1d;
+    padding: 13px 50px;
+}
+
+.icon ul {
+    text-align: right;
+}
+
+.logo h1 {
+    font-family: 'Khand', sans-serif;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.nav-bar {
+    float: left;
+    width: 80%;
+}
+
+.nav-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 16px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 0 35px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.lowerheader {
+    overflow: hidden;
+    background: #00000029;
+    background-image: url('./img/banner2.jpg');
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    border-bottom: 5px solid #0000007a;
+}
+
+.lower-content {
+    overflow: hidden;
+    background: #0000008c;
+    padding: 10px 25px;
+    position: relative;
+}
+
+.nav-bar ul li a i {
+    margin-right: 5px;
+}
+
+.banner-text {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px, -51px);
+    text-align: right;
+}
+
+.banner-text {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px, -51px);
+    text-align: right;
+}
+
+.banner-text h2 {
+    font-size: 49px;
+    margin-bottom: 20px;
+    font-family: 'Khand';
+    font-weight: 400;
+}
+
+.banner-text p {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.banner-text button {
+    padding: 13px 35px;
+    background: #928272;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    box-shadow: none;
+    font-family: 'Khand';
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.banner-text {
+    padding-right: 61px;
+}
+
+.yellow-bg {
+    background-color: #a8991a;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.about-left {
+    width: 20%;
+    float: left;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.yellow-bg h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.yellow-bg {
+    background-color: #a8991a;
+    text-align: center;
+    padding: 45px 0;
+    position: absolute;
+    width: 25%;
+    bottom: 0px;
+}
+
+.about-left {
+    width: 25%;
+    float: left;
+}
+
+.about {
+    overflow: hidden;
+    border-bottom: 60px solid #3d1110;
+}
+
+.yellow-bg h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.grey-bg {
+    background-color: #998c7c;
+    padding: 0px 28px;
+}
+
+.about-right h2 {
+    font-family: 'Khand';
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.about-right span {
+    font-size: 20px;
+    color: #a8991a;
+}
+
+.about-right {
+    text-align: center;
+    float: left;
+    width: 75%;
+    padding: 70px;
+}
+
+.about-right p {
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 0 100px;
+}
+
+.grey-bg img {
+    width: 123%;
+    position: relative;
+    left: -46px;
+    bottom: -2px;
+}
+
+button.menu,
+button.make {
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 70px 10px 0 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button.make {
+    background: #938373;
+}
+
+button.menu {
+    background: #d2c829;
+}
+
+.grey-bg p {
+    padding: 67px 28px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Khand';
+    padding: 60px;
+}
+
+.dish ul li {
+    display: inline-block;
+    color: #fd8e17;
+}
+
+.section3 {
+    overflow: hidden;
+    padding: 50px;
+}
+
+.section3 h2 {
+    text-align: center;
+    padding: 0px 0 50px 0;
+    font-family: 'Khand';
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.dish img {
+    width: 200px;
+    margin: 50px 0 60px 0;
+    height: 197px;
+}
+
+.dish p {
+    margin-bottom: 50px;
+    color: #858181;
+    padding: 0 60px;
+}
+
+.dish span {
+    padding: 0px 110px;
+    font-family: 'Khand';
+    font-size: 28px;
+    color: #858181;
+}
+
+.section4 {
+    background-image: url('img/woodbg.jpeg');
+    padding-bottom: 100px;
+}
+
+.section4 h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Khand';
+}
+
+.menu-list ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-list ul {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu {
+    width: 33.333%;
+    float: left;
+}
+
+.dish-list {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 88px;
+}
+
+.menu img {
+    width: 350px;
+    height: 350px;
+}
+
+.menu img {
+    width: 350px;
+    height: 350px;
+}
+
+.dish-list h3 {
+    color: #fff;
+    text-transform: capitalize;
+    background: #c5bd2e;
+    margin-right: 75px;
+    padding: 15px 11px;
+    font-family: 'Khand';
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.menu img {
+    width: 350px;
+    height: 350px;
+}
+
+.dish-list h3 {
+    color: #fff;
+    text-transform: capitalize;
+    background: #c5bd2e;
+    margin-right: 76px;
+    padding: 15px 11px;
+    font-family: 'Khand';
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.dish-list p {
+    background: #fff;
+    margin-right: 75px;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+
+.about-menu {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 80px 0 0 0px;
+}
+
+.about-menu h2 {
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Khand';
+}
+
+.section5 {
+    overflow: hidden;
+    padding: 50px;
+}
+
+.about-menu h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c9b22a;
+    letter-spacing: 2px;
+}
+
+button.menu1 {
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #d2c829;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button.make1 {
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #d2c829;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 70px 0 0 10px;
+}
+
+.dish {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.about-menu p {
+    padding: 40px 80px;
+}
+
+button.see {
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #938373;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.maenu-list1 {
+    width: 33.333%;
+    float: left;
+    padding: 50px 35px 0 0;
+}
+
+.maenu-list1 h2 {
+    padding-bottom: 30px;
+    font-family: 'Khand';
+    font-weight: 400;
+}
+
+.maenu-list1 p {
+    padding: 0 100px 60px 0px;
+}
+
+.email {
+    overflow: hidden;
+    padding: 40px 0 29px 30px;
+    background: #918474;
+}
+
+.tag-left {
+    width: 50%;
+    float: left;
+}
+
+.right-input {
+    width: 50%;
+    float: left;
+    text-align: end;
+    padding: 3px 35px 0 0;
+}
+
+.tag-left h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Khand';
+    font-weight: 400;
+    color: #fff;
+}
+
+.right-input input[type="text"] {
+    padding: 8px 80px 8px 15px;
+    font-size: 15px;
+    font-family: 'Khand';
+    letter-spacing: 1px;
+    background: #8c7f6f;
+    border: 3px solid #857868;
+    width: 31%;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+.right-input button {
+    padding: 11px 30px;
+    font-family: 'Khand';
+    background: #d4cc3d;
+    color: #fff;
+    border: none;
+}
+
+.info-left {
+    width: 33.333%;
+    float: left;
+    color: #fff;
+    padding: 60px 0 0 0px;
+}
+
+.info-left ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 12px;
+}
+
+.final-section {
+    overflow: hidden;
+    background-image: url('img/1.jpg');
+}
+
+.info-left ul li a {
+    color: #fff;
+}
+
+.info-left h2 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Khand';
+}
+
+p.pare-one {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.info-left ul {
+    padding: 30px 0;
+}
+
+p.addd {
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 70px;
+}
+
+::placeholder {
+    color: #c8c1c1;
+}
+
+.center {
+    width: 33.333%;
+    float: left;
+    color: wheat;
+    padding: 60px 0 0 0;
+}
+
+.middel {
+    overflow: hidden;
+}
+.days {
+    width: 40%;
+    float: left;
+}
+
+.top {
+    overflow: hidden;
+}
+
+.time {
+    width: 50%;
+    float: left;
+}
+.tag1 h2 {
+    font-size: 50px;
+    font-family: 'Khand';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.tag2 h2 {
+    font-size: 50px;
+    font-family: 'Khand';
+    font-weight: 400;
+}
+.chef-img {
+    width: 50%;
+    float: left;
+}
+
+.chef-about {
+    width: 50%;
+    float: left;
+    padding: 90px 0 0 0;
+}
+
+.about-info {
+    overflow: hidden;
+}
+.foram {
+    width: 25.333%;
+    float: left;
+    background-color: #d4cc3d;
+    margin: 40px 0 0 80px;
+}
+
+.details {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.details input {
+    padding: 14px 50px 14px 21px;
+    margin: 10px 0;
+    background: #b1a827;
+    border: none;
+    border-radius: 5px;
+}
+.bts {
+    margin: 35px 0 35px 0;
+    text-align: center;
+}
+.foram h2 {
+    text-align: center;
+    font-family: 'Khand';
+    font-weight: 400;
+    padding: 60px 0 30px 0;
+}
+
+.bts button {
+    padding: 10px 27px;
+    font-family: 'Khand';
+    font-size: 16px;
+    background: #938373;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+}
+.tag2 {
+    padding: 100px 0 35px 0;
+}
+input[type="text"]::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0;
+}
+.last-banner{
+    background-image: url('img/woodbg.jpeg');
+    text-align: center;
+    padding: 80px 0px;
+}
+.last-banner h2 {
+    font-size: 50px;
+    color: #ae9590;
+    font-weight: 400;
+}
+
+.last-banner span {
+    font-size: 20px;
+    font-weight: 300;
+}
