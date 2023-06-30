@@ -1,0 +1,630 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.logo,
+.menu {
+    width: 50%;
+    float: left;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.upper-header {
+    overflow: hidden;
+    padding: 0 50px 0 50px;
+}
+
+.menu {
+    font-size: 30px;
+    margin-top: 11px;
+    text-align: right;
+}
+
+.hero-bannner,
+.senction-one-info {
+    width: 50%;
+    float: left;
+}
+
+.hero-bannner img {
+    width: 100%;
+}
+
+.section-one {
+    overflow: hidden;
+    background: #ddd;
+}
+
+.senction-one-info h2 {
+    font-size: 50px;
+    padding: 50px 69px 34px 62px;
+    line-height: 65px;
+}
+
+.senction-one-info {
+    padding: 53px 100PX 100Px 50px;
+}
+
+.senction-one-info ul {
+    padding: 0px 0 0 60px;
+}
+
+.senction-one-info ul li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 8px 0px;
+    font-family: sans-serif;
+    color: #f05510;
+}
+
+button.bts {
+    padding: 25px 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.contact-us-button button {
+    margin: 50px 56px;
+    background: #f05510;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+.senction-one-info ul li:before {
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    color: #f05510;
+    font-size: 32px;
+}
+
+.contact-us-button button {
+    padding: 25px 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.contact-us-button button:hover {
+    transition: all 0.5s;
+    background: #000;
+}
+
+.menu a {
+    color: #000;
+}
+
+.about-section {
+    width: 50%;
+    float: left;
+}
+
+.banner-two {
+    width: 50%;
+    float: left;
+}
+
+.section-two {
+    background: #ddd;
+    padding: 60px 0 70px 0;
+}
+
+.contaner {
+    /* width: 80%; */
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 80px;
+}
+
+.about-section h2 {
+    font-size: 54px;
+    font-weight: 400;
+    padding: 0px 50px 100px 2px;
+}
+
+.about-section,
+.img-one {
+    display: inline-block;
+}
+
+.img-one {
+    background: #fff;
+    margin: 5px auto;
+    padding: 20px 72px;
+    margin-right: 5px;
+}
+
+.img-one h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 30px 0px 0;
+}
+.img-one img {
+    width: 80%;
+    height: 80%;
+}
+
+.banner-two img {
+    width: 680px;
+    height: 671px;
+}
+
+.about-work h2 {
+    text-align: center;
+    margin: 50px 0 15px 0;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.about-work p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    width: 50%;
+    margin: 0 auto 40px auto;
+}
+
+.Custom {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.Custom img {
+    width: 100%;
+    height: 300px;
+}
+
+.types {
+    overflow: hidden;
+}
+
+.Custom h5 {
+    text-align: center;
+    font-size: 25px;
+    padding: 16px 0;
+}
+
+.Custom p {
+    text-align: justify;
+    text-align-last: center;
+    padding: 10px 0 30px 0;
+}
+
+/* this is fourth one  css*/
+.room {
+    float: left;
+    width: 33.333%;
+}
+
+.room-view {
+    overflow: hidden;
+    padding: 0 0px 0 40px;
+}
+
+.room img {
+    width: 95%;
+    height: 100%;
+}
+
+.para h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 282px;
+    padding-bottom: 60px;
+}
+
+.section4 {
+    background: #ddd;
+}
+
+.about {
+    background: #fff;
+    margin: -4px 21px 0 0;
+    text-align: center;
+    padding: 0 0 60px 0px;
+}
+
+.about h2 {
+    padding: 15px 0;
+}
+
+.about p {
+    padding: 0 55px;
+    font-family: 'Roboto';
+    padding-bottom: 30px;
+}
+
+.about button {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    border-radius: 50px;
+    background: #f2540e;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+}
+
+.about button:hover {
+    transition: all 0.5s;
+    background: #000;
+}
+
+.learn-more {
+    text-align: center;
+}
+
+.learn-more button {
+    padding: 15px 50px;
+    border: navajowhite;
+    background: #f05510;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 50px 0 50px 0;
+}
+
+.learn-more button:hover {
+    background: #000;
+    transition: all 0.5s;
+}
+
+.Custom a {
+    text-decoration: none;
+    border-bottom: 3px solid #ddd;
+    color: #000;
+}
+
+.Custom a:hover {
+    border-color: #000;
+    transition: all 0.5s;
+}
+
+.section-three,
+.section4 {
+    padding: 50px 80px;
+}
+.paragra {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.section-banner {
+    float: left;
+    width: 50%;
+}
+
+.paragra img {
+    width: 300px;
+    height: 460px;
+    float: left;
+}
+
+.section5 {
+    overflow: hidden;
+    padding: 50px 60px;
+}
+
+.paragra p {
+    float: left;
+    width: 54%;
+    color: #888;
+    line-height: 21px;
+    padding: 55px 62px;
+    text-align: left;
+}
+
+.section-banner img {
+    width: 680px;
+    height: 460px;
+}
+
+.paragra a {
+    text-decoration: none;
+    border-bottom: 3px solid #ddd;
+    color: #000;
+}
+
+.paragra a:hover {
+    border-color: #000;
+    transition: all 0.5s;
+}
+.about a {
+    text-decoration: none;
+    border-bottom: 3px solid #ddd;
+    color: #000;
+}
+.about a:hover {
+    border-color: #000;
+    transition: all 0.5s;
+}
+.sub5 {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.about-company {
+    width: 50%;
+    float: left;
+    padding: 0;
+    margin: 0 65px 0 0;
+}
+
+.listof-point {
+    width: 40%;
+    float: left;
+    background: #fff;
+    padding: 50px 55px 50px 50px;
+    margin: 0 0 0 66px;
+}
+
+mar {
+    width: 300px;
+}
+.section6 {
+    overflow: hidden;
+    padding: 50px 60px;
+    background: #ddd;
+}
+
+.about-company h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.about-company h6 {
+    font-size: 20px;
+}
+
+.about-company p {
+    font-size: 15px;
+    line-height: 34px;
+    padding: 15px 0;
+}
+
+.listof-point ul li {
+    list-style: none;
+}
+.listof-point img {
+    width: 300px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.listof-point ul li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.listof-point ul li:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    margin-right:10px
+    
+}
+.bts-us button {
+    padding: 15px 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: #f05510;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.bts-us button:hover {
+    background: #000;
+    transition: all 0.5s;
+}
+.bts-us {
+    padding: 15px 0 0 67px;
+}
+.listof-point img {
+    width: 430px;
+    height: 300px;
+}
+.room .square {
+    color: #f05510;
+    font-size: 30px;
+}
+.sub-twosection7 .icon {
+    /* font-size: 60px; */
+    /* color: #f05510; */
+    padding: 44px -3px;
+}
+.section7 {
+    padding: 50px 60px;
+    overflow: hidden;
+}
+.subsection7 img {
+    height: 510px;
+    width: 510px;
+}
+.cantenar {
+    width: 57%;
+    margin: 0 auto;
+}
+
+.Portfolio-sample img {
+    width: 263px;
+    height: 256px;
+}
+
+.section8 {
+    background: #ddd;
+    padding: 50px 60px;
+    overflow: hidden;
+}
+
+.section8 h2 {
+    text-align: center;
+    font-size: 48px;
+    padding: 60px 0 50px 0;
+    border-bottom: 2px solid #000;
+}
+.Portfolio-sample {
+    padding: 50px 0 0 0;
+}
+
+.info-protfolio h4 {
+    padding: 20px 0 60px 0;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+}.last-section {
+    padding: 50px 60px;
+    background: #f05510;
+}
+.last {
+    background: #fff;
+    overflow: hidden;
+    padding: 50px 60px;
+}
+
+.contact-info {
+    width: 50%;
+    float: left;
+}
+
+.contact-info-two {
+    float: left;
+    width: 50%;
+}
+
+.contact-info h2 {
+    font-size: 48px;
+}
+
+.contact-info, par-one {
+    font-size: 14px;
+}
+.contact-info, .par-one {
+    font-size: 14px;
+    padding: 0 0 0 0;
+}
+
+p.par-one {
+    padding: 25px 0 20px 0;
+    font-size: 14px;
+    width: 70%;
+}
+
+p.par-two {
+    font-size: 14px;
+}
+
+.contact-info-two h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 0 26px 0;
+}
+
+.contact-info-two p {
+    font-size: 18px;
+    width: 81%;
+    padding: 0 0 30px 0;
+    font-weight: 400;
+}
+
+.contact-info-two input {
+    padding: 15px 0 15px 20px;
+    width: 58%;
+    border-radius: 50px;
+    background: #e5e5e5;
+    font-family: 'Open Sans',sans-serif;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid #888;
+}
+.bts-sumit button {
+    padding: 15px 45px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: #f05510;
+    margin: 0 0 0 10px;
+}
+.location {
+    padding: 50px 60px;
+    overflow: hidden;
+}
+
+.address {
+    width: 50%;
+    float: left;
+}
+
+.phone {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+}
+
+.location h5 {
+    font-size: 20px;
+    color: #fff;
+    padding: 0 0 16px 0;
+}
+
+.location p {
+    font-size: 18px;
+    color: #fff;
+}
+.location span {
+    position: relative;
+    right: 60px;
+    font-size: 40px;
+    top: 40px;
+    color: #fff;
+}
+.section-left {
+    width: 50%;
+    float: left;
+    padding: 36px 0 0 0;
+}
+
+.section-left img {
+    width: 500px;
+    height: auto;
+}
+
+.section.right {
+    float: right;
+    width: 50%;
+}
+p.graybg i {
+    color: #f05510;
+    font-size: 55px;
+}
+p.graybg {
+    background: #ddd;
+    padding: 50px 77px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    line-height: 38px;
+}
+p.para2 {
+    padding: 0 77px 15px 77px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.section-left h2 {
+    font-size: 35px;
+    padding: 30px 0 0 0;
+}
