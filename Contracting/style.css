@@ -1,0 +1,574 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-container .logo img {
+    width: 100px;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.Menu-bar {
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+    font-size: 30px;
+}
+
+header {
+    padding: 10px 15px;
+}
+
+.hero-banner-img img {
+    width: 100%;
+}
+
+.hero-banner-img {
+    position: relative;
+}
+
+.hero-banner-content {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    background: #fff;
+    height: 100%;
+    width: 23%;
+    padding: 0 25px;
+}
+
+.hero-banner-content i {
+    color: #FF8F00;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    line-height: 55px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+p.para-one {
+    line-height: 33px;
+    font-family: inherit;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-text .para-two {
+    font-family: revert;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.hero-text button {
+    padding: 15px 45px;
+    color: #fff;
+    background: #FF8F00;
+    border: none;
+}
+
+.banner-inner {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.About-Company h2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 85px;
+}
+
+.About-Company .about-para {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: inherit;
+    color: #1e1d1d6b;
+    font-style: italic;
+}
+
+.About-Company {
+    padding-left: 75px;
+    width: 60%;
+    margin-top: 70px;
+}
+
+p.About-para-one {
+    line-height: 32px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+p.About-para-two {
+    margin-bottom: 50px;
+}
+
+.img-container img {
+    width: 100%;
+    /* margin: 0 0px; */
+    /* padding: 0 50px; */
+}
+
+.banner-two {
+    margin: 10px 55px 150px 55px;
+    position: relative;
+}
+
+.CONTACT-INFO {
+    background: #FF8F00;
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    bottom: -75px;
+    padding: 35px 30px;
+}
+
+.CONTACT-INFO h2 {
+    font-family: 'Roboto Condensed';
+}
+
+.CONTACT-INFO p {
+    font-family: initial;
+    margin-bottom: 30px;
+}
+
+.LOCATION p {
+    margin: 0;
+}
+
+.info {
+    width: 50%;
+    vertical-align: top;
+    background: blanchedalmond;
+    padding: 35px 50px 40px 100px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.banner-three {
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.info p {
+    line-height: 2;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.banner-three img {
+    width: 100%;
+    height: 425px;
+}
+
+.information {
+    padding: 50px 55px 50px 55px;
+    overflow: hidden;
+    background: #f8f8f8;
+    position: RELATIVE;
+}
+
+.information:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 41%;
+    height: 100%;
+    width: 30%;
+    background: #ff8f00;
+    z-index: 0;
+}
+
+.info i {
+    position: absolute;
+    left: 33px;
+    font-size: 50px;
+    color: #ff8f00;
+    top: 49px;
+}
+
+.four-img {
+    width: 50%;
+    float: left;
+}
+
+.four-img img {
+    width: 100%;
+    height: 736px;
+}
+
+.para-page h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50;
+    margin-top: 70px;
+}
+
+.para-page .pass {
+    text-align: center;
+    font-size: 25px;
+}
+
+.para-page .link {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.Research {
+    width: 100%;
+}
+
+.Research img {
+    width: 50%;
+    float: left;
+    height: 384px;
+}
+
+.Research-parent {
+    float: left;
+    width: 50%;
+    background: #ededed;
+}
+
+.Research-img {
+    width: 100%;
+}
+
+.Research-img img {
+    width: 100%;
+}
+
+.Research-about {
+    float: left;
+    width: 50%;
+    padding: 50px 50px;
+}
+
+.Research-about i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #ff8f00;
+}
+
+.Research-about h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Research-about p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.four {
+    padding: 0 55px 0 55px;
+}
+
+.para-page h2 {
+    margin-bottom: 20px;
+}
+
+.info button {
+    font-size: 15px;
+    padding: 15px 40px;
+    background: #fff;
+    border: 3px solid #FF8F00;
+    margin-top: 15px;
+}
+
+.page-four:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background: #ff8f00;
+    z-index: -1;
+}
+
+.page-four {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.Section-5-text {
+    text-align: center;
+    background: #ff8f00;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.Section-5-text h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Section-5-text p {
+    margin: 0 auto;
+    width: 40%;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.Section-5-text button {
+    font-size: 15px;
+    padding: 10px 24px;
+    background: #fff;
+    border: none;
+}
+
+.box-banner {
+    width: 80%;
+    position: relative;
+    /* background: blue; */
+}
+
+.box-banner img {
+    width: 100%;
+    padding: 0;
+}
+
+.section-para h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-para p {
+    /* width: 29%; */
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.section-para {
+    background: #ffffff;
+    color: #000;
+    position: absolute;
+    right: -304px;
+    width: 45%;
+    bottom: -70px;
+    padding: 40px 45px;
+}
+
+.section-para button {
+    background: #ff8f00;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+}
+
+.Section-6 {
+    position: relative;
+    padding: 0 55px;
+    padding-bottom: 123px;
+    background: #ddd;
+}
+
+.Section-6:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    background: #ff8f00;
+    z-index: 0;
+}
+
+.section-7-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-7-text h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 70px 0 20px 0;
+}
+
+.section-7-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.img-one {
+    width: 50%;
+    float: left;
+}
+
+.img-one img {
+    width: 100%;
+    height: 800px;
+}
+
+.section-7-img {
+    padding: 0 55px 0 55px;
+    overflow: hidden;
+    margin: 0 0 50px 0px;
+}
+
+.img-right1 {
+    float: left;
+    width: 25%;
+}
+
+.img-right1 img {
+    width: 100%;
+    height: 400;
+}
+
+.img-right2 {
+    float: right;
+    width: 25%;
+}
+
+.img-right2 img {
+    width: 100%;
+    height: 400px;
+}
+
+.img-4-right {
+    float: right;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.img-4-right img {
+    width: 100%;
+    height: 400px;
+}
+
+.img-4-rightconer {
+    width: 25%;
+    float: left;
+}
+
+.img-4-rightconer img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+p.para-two {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.img-two {
+    width: 50%;
+    float: right;
+}
+
+.img-two img {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+
+.img-three-right,
+.img-two-right {
+    overflow: hidden;
+}
+
+.para-last {
+    clear: left;
+}
+
+.section-8 .forms {
+    width: 35%;
+    float: left;
+    padding: 70px 35px 165px 35px;
+    background: #e1e1e1;
+}
+
+.SEND-MESSAGE input,
+.SEND-MESSAGE textarea {
+    width: 100%;
+    background: none;
+    border: 0;
+    font-size: 17px;
+    border-bottom: 3px solid #8f8080;
+    padding: 17px 0;
+}
+
+.SEND-MESSAGE textarea {}
+
+.section-8-contact-info {
+    width: 30%;
+    float: left;
+    padding: 100px 60px;
+}
+
+.section-8-img-box {
+    width: 35%;
+    float: left;
+}
+
+.section-8-img-box img {
+    width: 100%;
+    height: 602px;
+}
+
+.section-8 {
+    overflow: hidden;
+    padding: 0 55px;
+}
+
+.SEND-MESSAGE button {
+    margin: 60px 0 0 0;
+    padding: 15px 175px;
+    font-size: 25px;
+    background: #ff8f00;
+    border: none;
+    color: #fff;
+}
+
+.section-8-contact-info h2 {
+    color: #ff8f00;
+    margin-bottom: 16px;
+}
+
+.section-8-contact-info p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.section-8 ul li {
+    list-style: none;
+}
+
+.section-8 ul li:before {
+    content: "\f00c";
+    font-size: 15px;
+    margin-right: 5px;
+    font-family: 'FontAwesome';
+}
